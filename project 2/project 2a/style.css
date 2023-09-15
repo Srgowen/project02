@@ -1,0 +1,99 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4499bb;
+    background-image: url(https://th.bing.com/th/id/R.4ad0efb48f702760226e4c8c6530e111?rik=niDkzQcgoE34Cg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fMEmBzn9.jpg&ehk=GMfgwNWuPwsTjAl3B4Av6VmPKFEw0PAUClH2UpSF%2fCA%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Fixes the background image in place */
+    background-position: center; /* Centers the background image */
+}
+
+
+header {
+    background-color: #0d103b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d6290b;
+}
+
+footer {
+  
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+.video-container {
+    display: flex;
+    justify-content: center; /* Center the video horizontally */
+    align-items: center; /* Center the video vertically */
+    padding: 20px; /* Add padding around the video (adjust as needed) */
+}
+.video-container iframe {
+    max-width: 100%; /* Make sure the iframe doesn't exceed the container's width */
+    height: auto;
+    max-height: 80%; /* Make sure the iframe doesn't exceed the container's height */
+}
+
+.hidden {
+    display: none;
+}
+.section-header.active {
+    color: rgb(192, 13, 13);
+
+}
+.button-section {
+    border: 2px solid #333; /* Add a border around the section */
+    padding: 15px 20px; /* Add padding to create space between content and border */
+    text-align: center; /* Center the text within the section */
+    background-color: rgba(51, 51, 51, 0.5); /* Set background color (optional) */
+    cursor: pointer; /* Change cursor to pointer to indicate interactivity */
+    z-index: 2;
+}
+
+.button-section button {
+    cursor: pointer;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+/* Style for when the section is hovered or active (you can customize this) */
+.button-section:hover,
+.button-section.active {
+    background-color: #333; /* Change background color on hover or active */
+    color: #fff; /* Change text color on hover or active */
+}
+.button-section:hover h2.section-header {
+    color: #FF0000; /* Change text color to red on hover */
+    /* You can customize the red and text color as needed */
+}
+

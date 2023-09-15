@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steven Owen - Portfolio</title>
+    <link rel="stylesheet" href="New folder/style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Steven Owen</h1>
+        <p>Cyber Security Professional</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about" class="section-header" onclick="toggleVisibility('about-content', this)">About</a></li>
+            <li><a href="#portfolio" class="section-header" onclick="toggleVisibility('portfolio-content', this)">Portfolio</a></li>
+            <li><a href="#contact" class="section-header" onclick="toggleVisibility('contact-content', this)">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="button-section">
+        <h2 class="section-header" onclick="toggleVisibility('about-content', this)">About Me</h2>
+        <p id="about-content" class="hidden">I have consistently demonstrated excellence in both physical security and the rapidly evolving digital
+            landscape, making me a valuable asset to any Cyber Security practice. Through my successful
+            completion of a quick-paced Cyber Security Bootcamp, I have shown the ability to master a wide range
+            of cyber skills and knowledge. I possess a strong ability to adapt to rapidly changing opportunities and
+            challenges, whether they arise in the physical or digital realm.
+            Beyond my professional achievements, I have also achieved distinction as a Spearfishing state record
+            holder, showcasing my expertise, commitment, and dedication in a self-taught sport. Additionally, my
+            experience with video editing through my YouTube channel equips me with the skills to create training
+            collateral and effectively communicate with diverse teams. Furthermore, I have served as a Facebook
+            site Admin for several years, underscoring my sociability and adeptness in managing online
+            communities.
+            While I am relatively new to the digital cyber security space, I am confident that my professional track
+            record and personal accomplishments demonstrate my potential to make a significant and positive
+            impact on any team. I am eager to apply my skills, passion, and dedication to further enhance security
+            measures and mitigate potential threats in the digital domain.</p>
+    </section>
+    
+    <section id="portfolio" class="button-section">
+        <h2 class="section-header" onclick="toggleVisibility('portfolio-content', this)">Portfolio</h2>
+        <div id="portfolio-content" class="hidden">
+            <div class="video-Container">
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/rzXCd87-i3g" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="button-section">
+        <h2 class="section-header" onclick="toggleVisibility('contact-content', this)">Contact</h2>
+        <div id="contact-content" class="hidden">
+        <ul>
+            <li>Srgowen2@gmail.com</li>
+            <li>253-590-7941</li>
+        </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Steven Owen</p>
+    </footer>
+</body>
+</html>
